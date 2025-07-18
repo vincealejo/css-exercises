@@ -13,7 +13,7 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
-  border: none;
+  border: none; 
   border-radius: 8px;
   background: #eee;
 }
@@ -24,3 +24,57 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Solution */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 8px;
+
+  padding: 0 12px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.buttons button{
+  padding: 10px;
+  font-weight: bold;
+  color: #333;
+  margin: 4px;
+}
+
+.footer {
+  background-color: #eeeeee
+}
+
